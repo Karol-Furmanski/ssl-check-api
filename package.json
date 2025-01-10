@@ -1,0 +1,30 @@
+{
+  "name": "ssl-check-api",
+  "version": "1.0.0",
+  "description": "SSL check API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karol-Furmanski/ssl-check-api.git"
+  },
+  "keywords": [
+    "ssl",
+    "api",
+    "check",
+    "valid"
+  ],
+  "author": "Karol Furmanski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Karol-Furmanski/ssl-check-api/issues"
+  },
+  "homepage": "https://github.com/Karol-Furmanski/ssl-check-api#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "ssl-checker": "^2.0.10"
+  }
+}
